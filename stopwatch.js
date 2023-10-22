@@ -19,7 +19,6 @@ function start() {
 		}, 1000);
 		startButton.innerHTML = 'Stop';
 	} else {
-		console.log('hi');
 		isStart = false;
 		clearInterval(intervalID);
 		startButton.innerHTML = 'Start';
