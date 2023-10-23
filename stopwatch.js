@@ -41,9 +41,8 @@ function displayTime() {
 
 function reset() {
 	if (isStart) {
-		isStart = false;
-		clearInterval(intervalID);
+		start();
 	}
-  second = 0;
+  	second = 0;
 	displayTime();
 }
